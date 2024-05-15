@@ -6,6 +6,7 @@ import Education from '../../components/Education';
 import Skills from '../../components/Skills';
 import Experience from '../../components/Experience';
 import Contact from '../../components/Contact';
+import Bonusz from '../../components/Bonusz';
 
 
 function Main () {
@@ -18,6 +19,7 @@ function Main () {
             <Skills id='latnivalok'/>
             <Experience id='termeszet'/>
             <Contact id='koltsegek'/>
+            <Bonusz id='bonusz'/>
         </div>
     );
 }

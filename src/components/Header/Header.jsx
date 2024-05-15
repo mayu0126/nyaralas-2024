@@ -9,6 +9,7 @@ const navigation = [
   { name: 'Látnivalók', href: 'latnivalok' },
   { name: 'Természet', href: 'termeszet' },
   { name: `Költségek`, href: 'koltsegek' },
+  { name: `Bónusz`, href: 'bonusz' },
 
 ];
 
@@ -55,7 +56,7 @@ const Header = () => {
           </ScrollLink>
         </div>
 
-        <div className="md:hidden">
+        <div className="xl:hidden">
           <div className="flex items-center">
 
             <button
@@ -111,7 +112,7 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="hidden md:flex md:gap-x-10">
+        <div className="hidden xl:flex xl:gap-x-10">
           {navigation.map((item) => (
             <ScrollLink
               key={item.name}
