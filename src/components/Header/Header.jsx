@@ -6,9 +6,10 @@ const navigation = [
   { name: 'Infók', href: 'informaciok' },
   { name: 'Szállások', href: 'szallasok' },
   { name: 'Éttermek', href: 'ettermek' },
-  { name: 'Látnivalók', href: 'latnivalok' },
+  { name: 'Programok', href: 'programok' },
   { name: 'Természet', href: 'termeszet' },
   { name: `Költségek`, href: 'koltsegek' },
+  { name: `Mit pakoljak be?`, href: 'mitpakoljakbe' },
   { name: `Bónusz`, href: 'bonusz' },
 
 ];
