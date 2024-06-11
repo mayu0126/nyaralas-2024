@@ -58,7 +58,8 @@ const Projects = ({id}) => {
               <div className='mb-1 mt-4 font-bold text-lg text-cyan-500'>CSURGÓ</div>
               <div className='mb-4 font-semibold text-md text-cyan-200'>Azúr Étterem és Panzió</div>
               <div className='text-sm md:text-base text-justify mb-4'>
-                <span className='flex justify-center text-red-400 text-center mb-4'>- Még nincs lefoglalva! -</span>
+                <span className='flex justify-center text-center mb-4'>- Lefoglalva! -</span>
+                Lefoglaltunk egy 2 fős és egy 3 fős szobát nektek :) A helyszínen kell majd fizetni. Reggelit nem kértünk, de ha hajnalban indulunk, akkor előző este a kb. 2 percre lévő Lidl-ben be tudunk vásárolni.<br/><br/>
                 Saját zárt parkoló, zöldövezetes udvar, napi menü az étteremben 1850 Ft, állandó menü 2350 Ft. Andriséktól 5 perc sétára :)
                 A panzió 5 db kétágyas és 3 db háromágyas szobával rendelkezik, a szobák pótágyazhatók. <br/>
                 <div className='justify-center text-center mt-4'>
@@ -83,7 +84,7 @@ const Projects = ({id}) => {
               <div className='mb-1 mt-4 font-bold text-lg text-cyan-500'>NAGYKANIZSA</div>
               <div className='mb-4 font-semibold text-md text-cyan-200'>Szőlőskert Étterem és Fogadó</div>
               <div className='text-sm md:text-base text-justify mb-4'>
-                <span className='flex justify-center text-red-400 text-center mb-4'>- Még nincs lefoglalva! -</span>
+                <span className='flex justify-center text-red-400 text-center mb-4'>- Nincs lefoglalva! -</span>
                 A szőlőültetvényekkel körülvett családi kézben lévő szálloda mindössze 1 km-re található az M7-es autópályától, a nagykanizsai Csónakázó-tó közelében. A Hotel Vineyard Inn - Szőlőskert gyógy- és wellnessrészleggel, valamint a Gault Millau étteremkalauz által elismert ínyenc étteremmel várja vendégeit.<br/>
                 <div className='justify-center text-center mt-4'>
                   <span className='font-bold'>Árak 1 éjszakára Booking.com-on: </span> <br/>

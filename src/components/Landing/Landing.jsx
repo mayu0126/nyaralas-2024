@@ -1,5 +1,6 @@
 import { React, useState, useEffect } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
+import Countdown from '../Countdown/Countdown';
 
 function Landing ({id}) {
 
@@ -51,7 +52,7 @@ function Landing ({id}) {
 
         ) : (
 
-        <div className='flex justify-center items-center max-h-fit'>
+        <div className='mb-20 flex justify-center items-center max-h-fit'>
             <div className='mt-56 w-1/3 sm:w-1/2 md:w-1/2 lg:w-1/3 px-2 py-2 text-white text-left'>
                 <div className='text-xs sm:text-xs md:text-sm lg:text-base xl:text-lg'>
                     Sziasztok,
@@ -73,6 +74,7 @@ function Landing ({id}) {
             </div>
         </div>
         )}
+        <Countdown />
     </div>
  )
 }
