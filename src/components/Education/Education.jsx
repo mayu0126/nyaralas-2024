@@ -268,6 +268,96 @@ const Education = ({id}) => {
           </div>
 
 
+          <div className='text-center mb-4 px-3 py-3 bg-white rounded-2xl'>
+            <div className='font-bold text-lg text-slate-900'>6. SAFARI BAR {isNarrowScreen ? <br/> : ""} <span className='font-bold'>-</span></div>
+            <div class="font-semibold text-lg text-cyan-700 mb-4">
+                  Étkezési lehetőség a strandon
+            </div>
+
+
+            <img src="https://lh3.googleusercontent.com/p/AF1QipMwFhMf1QP635MEOKAbIFPNRL5M4oQumsGSrwgL=s680-w680-h510"
+              alt='etterem-1'
+              className='rounded-2xl w-[450px] h-[200px] object-cover' />
+
+            <img src="https://lh3.googleusercontent.com/p/AF1QipNHEgxZB4LZeeWdCi7DQV-PJ_w5KWRZTXHax02T=s680-w680-h510"
+              alt='etel'
+              className='rounded-2xl mt-4 w-[450px] h-[200px] object-cover' />
+
+            <img src="https://lh3.googleusercontent.com/p/AF1QipMkjDmh9crDfhnvinj50geMK-aXoxoSx1K5Gz6Y=s680-w680-h510"
+              alt='etel'
+              className='rounded-2xl mt-4 w-[450px] h-[200px] object-cover' />
+
+            <img src="https://lh3.googleusercontent.com/p/AF1QipMXCfcpRWSfySuWh_9jdK-9UAAFgcmFoLvzP1or=s680-w680-h510"
+              alt='etel'
+              className='rounded-2xl mt-4 w-[450px] h-[200px] object-cover' />
+
+            <img src="https://lh3.googleusercontent.com/p/AF1QipPyq1P39LpRMn1L9k86pWUV-sLBNSWMjfDM_b1n=s680-w680-h510"
+              alt='etel'
+              className='rounded-2xl mt-4 w-[450px] h-[200px] object-cover' />
+          </div>
+
+          <div className='text-center mb-4 px-3 py-3 bg-white rounded-2xl'>
+            <div className='font-bold text-lg text-slate-900'>7. PORTICH BEACH BAR {isNarrowScreen ? <br/> : ""} <span className='font-bold'>-</span></div>
+            <div class="font-semibold text-lg text-cyan-700 mb-4">
+                  Étkezési lehetőség a strandon
+                  <a href="https://lh3.googleusercontent.com/p/AF1QipP9YpE20i1dMkKMTST-d2urkNCdhcCV2GG5SPlB=s680-w680-h510" class="underline">
+                <div class="font-semibold text-lg text-cyan-700 mb-4">
+                  menü
+                </div>
+              </a>
+            </div>
+            <img src="https://lh3.googleusercontent.com/p/AF1QipOzk1f_lbrh-pa94nP-FJB3WpcTvn1aJhtFaI0j=s680-w680-h510"
+              alt='etterem-1'
+              className='rounded-2xl w-[450px] h-[200px] object-cover' />
+            <img src="https://lh3.googleusercontent.com/p/AF1QipMrUD5WGVyJaFVPwXbB7Z64caaAZq5eUrsRhlLK=s680-w680-h510"
+              alt='etterem-1'
+              className='rounded-2xl mt-4 w-[450px] h-[200px] object-cover' />
+
+            <img src="https://lh3.googleusercontent.com/p/AF1QipNzhF8jrhyVvLAwQFDcP1iVUUFBXvMSA5BknK9S=s680-w680-h510"
+              alt='etel'
+              className='rounded-2xl mt-4 w-[450px] h-[200px] object-cover' />
+
+            <img src="https://lh3.googleusercontent.com/p/AF1QipMM9-ByiHyGLugCC2_UHR_5n9KkUTIAaF8avjN2=s680-w680-h510"
+              alt='etel'
+              className='rounded-2xl mt-4 w-[450px] h-[200px] object-cover' />
+
+            <img src="https://lh3.googleusercontent.com/p/AF1QipMxAvncfpUJpn-hwGR71iJnyC25-vtIu_wP0oKv=s680-w680-h510"
+              alt='etel'
+              className='rounded-2xl mt-4 w-[450px] h-[200px] object-cover' />
+
+            <img src="https://lh3.googleusercontent.com/p/AF1QipMsR3Jws1ZVxg7UN6kboEnBR1KgVn_JAvDZN-Jk=s680-w680-h510"
+              alt='etel'
+              className='rounded-2xl mt-4 w-[450px] h-[200px] object-cover' />
+
+            <img src="https://lh3.googleusercontent.com/p/AF1QipOuGI_dLuKB7IfKPLQy1OF1FS-JyKlji8eFJ1C6=s680-w680-h510"
+              alt='etel'
+              className='rounded-2xl mt-4 w-[450px] h-[200px] object-cover' />
+          </div>
+
+
+          <div className='text-center mb-4 px-3 py-3 bg-white rounded-2xl'>
+            <div className='font-bold text-lg text-slate-900'>8. NJIVE BEACH BAR {isNarrowScreen ? <br/> : ""} <span className='font-bold'>-</span></div>
+            <div class="font-semibold text-lg text-cyan-700 mb-4">
+                  Étkezési lehetőség a strandon
+            </div>
+            <img src="https://lh3.googleusercontent.com/p/AF1QipO1EvUDNbrFudC7zxBTew5ysOMxavE7zI2h091i=s680-w680-h510"
+              alt='etterem-1'
+              className='rounded-2xl w-[450px] h-[200px] object-cover' />
+            <img src="https://lh3.googleusercontent.com/p/AF1QipOZEagvoN0uyL2ksySZu912Gtjh0yJhtXMJ-I1y=s680-w680-h510"
+              alt='etterem-1'
+              className='rounded-2xl mt-4 w-[450px] h-[200px] object-cover' />
+
+            <img src="https://lh3.googleusercontent.com/p/AF1QipMLQftfpmCHmb410lJEaY2gQ6iNdup_LE_704Ia=s680-w680-h510"
+              alt='etel'
+              className='rounded-2xl mt-4 w-[450px] h-[200px] object-cover' />
+
+            <img src="https://lh3.googleusercontent.com/p/AF1QipOeZBYb5K0TxAbORyUgrZ_AEAqTJcfahbHPOj04=s680-w680-h510"
+              alt='etel'
+              className='rounded-2xl mt-4 w-[450px] h-[200px] object-cover' />
+
+          </div>
+
+
         </div>
       </div>
       <div className={`${isNarrowScreen ? "hidden" : "h-fit"} w-1/3`}>
