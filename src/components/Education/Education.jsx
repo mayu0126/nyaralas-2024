@@ -109,17 +109,17 @@ const Education = ({id}) => {
             <div className='flex justify-center items-center space-x-4 text-center'>
               <a href="https://lh3.googleusercontent.com/p/AF1QipOkWOwbuQzoh7_Di7wOKRwMTaQjYy3jYyD1PLFV=s680-w680-h510-rw" class="underline">
                 <div class="font-semibold text-lg text-cyan-700 mb-4">
-                  menü 1. oldal
+                  menü 1.
                 </div>
               </a>
               <a href="https://lh3.googleusercontent.com/p/AF1QipN960WuUYdbDH4Of_EsyJ3l1kv487_gc-M-MGGf=s680-w680-h510-rw" class="underline">
                 <div class="font-semibold text-lg text-cyan-700 mb-4">
-                  menü 2. oldal
+                  menü 2.
                 </div>
               </a>
               <a href="https://lh3.googleusercontent.com/p/AF1QipMl9W8qiN5MaxMoAJojWrPGQTOI2slwpVTejP4P=s680-w680-h510-rw" class="underline">
                 <div class="font-semibold text-lg text-cyan-700 mb-4">
-                  menü 3. oldal
+                  menü 3.
                 </div>
               </a>
             </div>
@@ -127,17 +127,17 @@ const Education = ({id}) => {
             <div className='flex justify-center items-center space-x-4 text-center -mt-4'>
               <a href="https://lh3.googleusercontent.com/p/AF1QipOHdkVe46WZr38WBjtW-3SD0T_jR9XkglakBDsP=s680-w680-h510-rw" class="underline">
                 <div class="font-semibold text-lg text-cyan-700 mb-4">
-                  menü 4. oldal
+                  menü 4.
                 </div>
               </a>
               <a href="https://lh3.googleusercontent.com/p/AF1QipOsSeckfD5Ztach18yJ1ngmNgdty1Ll1sYBUeTM=s680-w680-h510-rw" class="underline">
                 <div class="font-semibold text-lg text-cyan-700 mb-4">
-                  menü 5. oldal
+                  menü 5.
                 </div>
               </a>
               <a href="https://lh3.googleusercontent.com/p/AF1QipNS4DQfTZinVygcWj05anWNEzaMPkEv-vXhlhPK=s680-w680-h510-rw" class="underline">
                 <div class="font-semibold text-lg text-cyan-700 mb-4">
-                  menü 6. oldal
+                  menü 6.
                 </div>
               </a>
             </div>
@@ -180,17 +180,17 @@ const Education = ({id}) => {
             <div className='flex justify-center items-center space-x-4 text-center'>
               <a href="https://lh3.googleusercontent.com/p/AF1QipMc1_lwlL5kCG4U1tBl4Ed31HQIET1tGqpmM-Jw=s680-w680-h510-rw" class="underline">
                 <div class="font-semibold text-lg text-cyan-700 mb-4">
-                  menü 1. oldal
+                  menü 1.
                 </div>
               </a>
               <a href="https://lh3.googleusercontent.com/p/AF1QipOufr8Etsh-g13jT0ZvnNSaZwWYy0c435z_D1ai=s680-w680-h510-rw" class="underline">
                 <div class="font-semibold text-lg text-cyan-700 mb-4">
-                  menü 2. oldal
+                  menü 2.
                 </div>
               </a>
               <a href="https://lh3.googleusercontent.com/p/AF1QipP-643Y3oaqXrcFELABSU3yWqL09YFvez9AsAin=s680-w680-h510-rw" class="underline">
                 <div class="font-semibold text-lg text-cyan-700 mb-4">
-                  menü 3. oldal
+                  menü 3.
                 </div>
               </a>
             </div>
@@ -227,17 +227,17 @@ const Education = ({id}) => {
             <div className='flex justify-center items-center space-x-4 text-center'>
               <a href="https://lh3.googleusercontent.com/p/AF1QipPNPd-UuQQq6crncH46YWgHR4AL1oZVciZnLaUU=s680-w680-h510-rw" class="underline">
                 <div class="font-semibold text-lg text-cyan-700 mb-4">
-                  menü 1. oldal
+                  menü 1.
                 </div>
               </a>
               <a href="https://lh3.googleusercontent.com/p/AF1QipMkdp2jfGIr1jVGFVJzpZmrWUu8UDLI43TcXZr6=s680-w680-h510-rw" class="underline">
                 <div class="font-semibold text-lg text-cyan-700 mb-4">
-                  menü 2. oldal
+                  menü 2.
                 </div>
               </a>
               <a href="https://lh3.googleusercontent.com/p/AF1QipOHOo7Lt6oeH3JJmudBWHcr7SGzqdjlnQQUpHiz=s680-w680-h510-rw" class="underline">
                 <div class="font-semibold text-lg text-cyan-700 mb-4">
-                  menü 3. oldal
+                  menü 3.
                 </div>
               </a>
             </div>
