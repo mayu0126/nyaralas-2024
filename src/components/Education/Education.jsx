@@ -17,23 +17,16 @@ const Education = ({id}) => {
   }, []);
 
   return(
-    <div id={id} className={`${isNarrowScreen ? "flex-col" : "max-h-fit"} flex justify-center items-center bg-slate-100`}>
+    <div id={id} className={`${isNarrowScreen ? "flex-col" : "max-h-fit"} flex justify-center items-center text-center bg-slate-100`}>
       
       <div className='mt-20 mb-20 w-5/6 sm:w-2/3 md:w-1/2 lg:w-1/3 px-2 py-2 lg:mr-20 text-slate-900'>
-        <div className={`${isNarrowScreen ? "text-center" : "text-left"}`}>
+        <div>
           <div className={`${isNarrowScreen ? "" : "ml-5"} mb-10 font-bold text-2xl lg:text-3xl xl:text-4xl text-cyan-700`}>ÉTTERMEK</div>
 
-          <div className={`${isNarrowScreen ? "h-fit mb-4" : "hidden"}`}>
-            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/0a/90/71/casa-mia.jpg?w=600&h=400&s=1"
-              alt='etterem'
-              className='rounded-2xl' />
-
-          </div>
-
-          <div className='text-center mb-4 px-3 py-3 bg-white rounded-2xl'>
+          <div className='flex-col flex justify-center items-center text-center mb-4 px-3 py-3 bg-white rounded-2xl'>
             <div className='font-bold text-lg text-slate-900'>1. RESTAURANT PREMANTURA {isNarrowScreen ? <br/> : ""} <span className='font-bold'>-</span></div>
-            <a href="https://cdn.qr-code-generator.com/account18899035/45516080_1.pdf?Expires=1718391952&Signature=o6y54ilFjxnY~Cy~q7SVuGdnIcIA757t~FR6Fb44sf~kZhCgCxWGMCts5NMsN61gccvSjLPdIBZTIAI8FK1XawbyROTrFYdEjZRR0jJWyleUZQzNQRBF5KJMIwsouQtpxfH9~HdcmFq8kgFZTo1IwNqhL0o~VucZ9BsQAyuyEUkY0VbjNJMEwtACLrxC0v-VlZahRJEG-LuCv0JE3HEQbTmzhi~omhWfLXi31Ddk4DII2o1xDxgrVobsHyY~MTYprc04FBwSuBG22ha35r70ikwQ2CONKhkxBvZ~RNH7yQN43mtSyDA9RzbLwdmFkB1GNXLA0Oojym8H3FrzFyba9g__&Key-Pair-Id=KKMPOJU8AYATR" class="underline">
-              <div class="font-semibold text-lg text-cyan-700 mb-4">
+            <a href="https://cdn.qr-code-generator.com/account18899035/45516080_1.pdf?Expires=1718391952&Signature=o6y54ilFjxnY~Cy~q7SVuGdnIcIA757t~FR6Fb44sf~kZhCgCxWGMCts5NMsN61gccvSjLPdIBZTIAI8FK1XawbyROTrFYdEjZRR0jJWyleUZQzNQRBF5KJMIwsouQtpxfH9~HdcmFq8kgFZTo1IwNqhL0o~VucZ9BsQAyuyEUkY0VbjNJMEwtACLrxC0v-VlZahRJEG-LuCv0JE3HEQbTmzhi~omhWfLXi31Ddk4DII2o1xDxgrVobsHyY~MTYprc04FBwSuBG22ha35r70ikwQ2CONKhkxBvZ~RNH7yQN43mtSyDA9RzbLwdmFkB1GNXLA0Oojym8H3FrzFyba9g__&Key-Pair-Id=KKMPOJU8AYATR" className="underline">
+              <div className="font-semibold text-lg text-cyan-700 mb-4">
                 menü letöltése
               </div>
             </a>
@@ -63,7 +56,7 @@ const Education = ({id}) => {
               className='rounded-2xl mt-4 w-[450px] h-[200px] object-cover' />
           </div>
 
-          <div className='text-center mb-4 px-3 py-3 bg-white rounded-2xl'>
+          <div className='flex-col flex justify-center items-center text-center mb-4 px-3 py-3 bg-white rounded-2xl'>
             <div className='font-bold text-lg text-slate-900'>2. KONOBA CASA MIA {isNarrowScreen ? <br/> : ""} <span className='font-bold'>-</span></div>
             <a href="https://cdn.website.dish.co/media/03/fe/7996360/Menu-1.pdf" class="underline">
               <div class="font-semibold text-lg text-cyan-700 mb-4">
@@ -103,7 +96,7 @@ const Education = ({id}) => {
           </div>
 
 
-          <div className='text-center mb-4 px-3 py-3 bg-white rounded-2xl'>
+          <div className='flex-col flex justify-center items-center text-center mb-4 px-3 py-3 bg-white rounded-2xl'>
             <div className='font-bold text-lg text-slate-900'>3. KONOBA ANCORA {isNarrowScreen ? <br/> : ""} <span className='font-bold'>-</span></div>
             
             <div className='flex justify-center items-center space-x-4 text-center'>
@@ -174,7 +167,7 @@ const Education = ({id}) => {
           </div>
 
 
-          <div className='text-center mb-4 px-3 py-3 bg-white rounded-2xl'>
+          <div className='flex-col flex justify-center items-center text-center mb-4 px-3 py-3 bg-white rounded-2xl'>
             <div className='font-bold text-lg text-slate-900'>4. RESTORAN PIZZERIA KAMENJAK {isNarrowScreen ? <br/> : ""} <span className='font-bold'>-</span></div>
             
             <div className='flex justify-center items-center space-x-4 text-center'>
@@ -221,7 +214,7 @@ const Education = ({id}) => {
           </div>
 
 
-          <div className='text-center mb-4 px-3 py-3 bg-white rounded-2xl'>
+          <div className='flex-col flex justify-center items-center text-center mb-4 px-3 py-3 bg-white rounded-2xl'>
             <div className='font-bold text-lg text-slate-900'>5. IVONA BAHAMA - STEAK HOUSE {isNarrowScreen ? <br/> : ""} <span className='font-bold'>-</span></div>
             
             <div className='flex justify-center items-center space-x-4 text-center'>
@@ -268,7 +261,7 @@ const Education = ({id}) => {
           </div>
 
 
-          <div className='text-center mb-4 px-3 py-3 bg-white rounded-2xl'>
+          <div className='flex-col flex justify-center items-center text-center mb-4 px-3 py-3 bg-white rounded-2xl'>
             <div className='font-bold text-lg text-slate-900'>6. SAFARI BAR {isNarrowScreen ? <br/> : ""} <span className='font-bold'>-</span></div>
             <div class="font-semibold text-lg text-cyan-700 mb-4">
                   Étkezési lehetőség a strandon
@@ -296,7 +289,7 @@ const Education = ({id}) => {
               className='rounded-2xl mt-4 w-[450px] h-[200px] object-cover' />
           </div>
 
-          <div className='text-center mb-4 px-3 py-3 bg-white rounded-2xl'>
+          <div className='flex-col flex justify-center items-center text-center mb-4 px-3 py-3 bg-white rounded-2xl'>
             <div className='font-bold text-lg text-slate-900'>7. PORTICH BEACH BAR {isNarrowScreen ? <br/> : ""} <span className='font-bold'>-</span></div>
             <div class="font-semibold text-lg text-cyan-700 mb-4">
                   Étkezési lehetőség a strandon
@@ -335,7 +328,7 @@ const Education = ({id}) => {
           </div>
 
 
-          <div className='text-center mb-4 px-3 py-3 bg-white rounded-2xl'>
+          <div className='flex-col flex justify-center items-center text-center mb-4 px-3 py-3 bg-white rounded-2xl'>
             <div className='font-bold text-lg text-slate-900'>8. NJIVE BEACH BAR {isNarrowScreen ? <br/> : ""} <span className='font-bold'>-</span></div>
             <div class="font-semibold text-lg text-cyan-700 mb-4">
                   Étkezési lehetőség a strandon
@@ -357,14 +350,59 @@ const Education = ({id}) => {
 
           </div>
 
+          <div className='flex-col flex justify-center items-center text-center mb-4 px-3 py-3 bg-white rounded-2xl'>
+            <div className='font-bold text-lg text-slate-900'>9. PÉKSÉGEK {isNarrowScreen ? <br/> : ""} <span className='font-bold'>-</span></div>
+            <div class="font-semibold text-lg text-cyan-700 mb-4">
+                  Több pékség is van a városban
+            </div>
+            <img src="https://lh3.googleusercontent.com/p/AF1QipMG8SvPYH-j5AbNJOD-qakCIJHna99jggnhzgGQ=s680-w680-h510-rw"
+              alt='etterem-1'
+              className='rounded-2xl w-[450px] h-[200px] object-cover' />
+            <img src="https://lh3.googleusercontent.com/p/AF1QipMnHumwBVTcOsp5ADIEAleaO-RL61Vwk9_6z9tS=s680-w680-h510-rw"
+              alt='etterem-1'
+              className='rounded-2xl mt-4 w-[450px] h-[200px] object-cover' />
+
+          </div>
+
+          <div className='flex-col flex justify-center items-center text-center mb-4 px-3 py-3 bg-white rounded-2xl'>
+            <div className='font-bold text-lg text-slate-900'>10. "A ROMA" FAGYIZÓ {isNarrowScreen ? <br/> : ""} <span className='font-bold'>-</span></div>
+            <div class="font-semibold text-lg text-cyan-700 mb-4">
+                  Több fagyizó is van, de szerintünk ez a legjobb :)
+            </div>
+            <img src="https://lh3.googleusercontent.com/p/AF1QipM1oIvHBKrVWPupXue2YkCZHYilWkYp3VoeeiJ-=s680-w680-h510-rw"
+              alt='etterem-1'
+              className='rounded-2xl w-[450px] h-[200px] object-cover' />
+            <img src="https://lh3.googleusercontent.com/p/AF1QipOhZe5zSDQXujWy45QFiuX1ffb8idvuXdXuv7hR=s680-w680-h510-rw"
+              alt='etterem-1'
+              className='rounded-2xl mt-4 w-[450px] h-[200px] object-cover' />
+            <img src="https://lh3.googleusercontent.com/p/AF1QipNHqbT1yziJHL3dnldiBMNa-fQ0kJ5Kya5K71hU=s680-w680-h510-rw"
+              alt='etterem-1'
+              className='rounded-2xl mt-4 w-[450px] h-[200px] object-cover' />
+            <img src="https://lh3.googleusercontent.com/p/AF1QipN6RbrVvwnmzWuVJXPR8-rlX4KcBQYo6fjClnK9=s680-w680-h510-rw"
+              alt='etterem-1'
+              className='rounded-2xl mt-4 w-[450px] h-[200px] object-cover' />
+
+          </div>
+
+          <div className='flex-col flex justify-center items-center text-center mb-4 px-3 py-3 bg-white rounded-2xl'>
+            <div className='font-bold text-lg text-slate-900'>11. GELATERIA VALENTINO FAGYIZÓ {isNarrowScreen ? <br/> : ""} <span className='font-bold'>-</span></div>
+            <div class="font-semibold text-lg text-cyan-700 mb-4">
+                  Itt a fagyik nem néznek ki jól, csak a fagyikelyhek :D
+            </div>
+            <img src="https://lh3.googleusercontent.com/p/AF1QipOf_CLwK7kizVi0bHJeo1VREppLY5wos2CXaGyX=s680-w680-h510-rw"
+              alt='etterem-1'
+              className='rounded-2xl w-[450px] h-[200px] object-cover' />
+            <img src="https://lh3.googleusercontent.com/p/AF1QipOqgPCwZSX7_yXVQ2mv-JZpWqCF2tMKYJb9ioHi=s680-w680-h510-rw"
+              alt='etterem-1'
+              className='rounded-2xl mt-4 w-[450px] h-[200px] object-cover' />
+            <img src="https://lh3.googleusercontent.com/p/AF1QipP-qN5P5s_H_kBItCflLNbL2QhUiM0cpGNNmIfV=s680-w680-h510-rw"
+              alt='etterem-1'
+              className='rounded-2xl mt-4 w-[450px] h-[200px] object-cover' />
+
+          </div>
+
 
         </div>
-      </div>
-      <div className={`${isNarrowScreen ? "hidden" : "h-fit"} w-1/3`}>
-        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/0a/90/71/casa-mia.jpg?w=600&h=400&s=1"
-          alt='etterem'
-          className='rounded-2xl' />
-
       </div>
     </div>
   );

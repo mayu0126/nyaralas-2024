@@ -132,6 +132,9 @@ const PackingList = ({id}) => {
               <input type="checkbox" className="mr-2" />tusfürdő
             </div>
             <div className='font-semibold text-md text-cyan-700'>
+              <input type="checkbox" className="mr-2" />kézmosó szappan
+            </div>
+            <div className='font-semibold text-md text-cyan-700'>
               <input type="checkbox" className="mr-2" />sampon, hajbalzsam
             </div>
             <div className='font-semibold text-md text-cyan-700'>
